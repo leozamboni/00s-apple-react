@@ -1,0 +1,72 @@
+.container {
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--light-gray) 0px,
+    var(--light-gray) 2.5px,
+    var(--gray) 2.5px,
+    var(--gray) 5px
+  );
+  height: 50px;
+}
+
+.nav-bar {
+  background: linear-gradient(0deg, rgb(255, 255, 255), rgb(183, 183, 183));
+  height: 18px;
+  border: 0.5px solid black;
+  box-shadow: 0px 1px 5px black;
+  text-align: center;
+}
+
+.nav-bar ul li {
+  font-size: 0.75em;
+  display: inline-block;
+  padding-inline: 0.8vw;
+}
+
+.nav-bar ul li a {
+  color: #383838;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-bar-buttons {
+  margin-top: -35px;
+  text-align: center;
+}
+
+.nav-bar-buttons ul li {
+  font-size: 0.8em;
+  display: inline-block;
+}
+
+.nav-bar-buttons ul li button {
+  width: 85px;
+  height: 40px;
+  border-radius: 5px 5px 0px 0px;
+
+  font-weight: bold;
+  text-shadow: 2px 0px #6a6a6a7b;
+  color: #383838;
+  
+  border: 1.5px solid #969696;
+  border-top: 2.5px solid #969696;
+  box-shadow: 0px 5px #ebebeb inset;
+  background: linear-gradient(0deg, #ffffff, #b7b7b7);
+}
+
+.nav-bar-buttons ul li button:hover {
+  cursor: pointer;
+}
+
+.nav-bar-buttons ul li .apple-logo {
+  display: inline-block;
+  padding: 0;
+  margin-top: -13px;
+  vertical-align: top;
+  border-bottom: 0px;
+}
+
+.nav-bar-buttons ul li .apple-logo svg {
+  height: 25px;
+  color: red;
+}
